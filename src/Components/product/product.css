@@ -1,0 +1,272 @@
+.product__category {
+  width: 100%;
+  height: 64px;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  margin-bottom: 32px;
+}
+
+.product__card {
+  margin-bottom: 23px;
+}
+
+.product__container .main {
+  width: 879px;
+  margin-right: 24px;
+}
+
+.product__banner {
+  width: 879px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.secondary__img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 879px;
+  margin-bottom: 32px;
+}
+
+.secondary__img img {
+  margin-right: 16px;
+  width: 207px;
+  border-radius: 4px;
+}
+
+.secondary__img img:nth-child(4) {
+  margin-right: 0;
+}
+
+.product__container {
+  display: flex;
+}
+
+.product__info1 .product__title {
+  margin-bottom: 18px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.product__info1 .product__date {
+  width: 180px;
+  margin-bottom: 64px;
+  /* padding: 0; */
+}
+
+.product__info1 .product__price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.product__info1 .product__price span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff1b1b;
+  margin-left: 16px;
+}
+
+.wallet-icon {
+  font-size: 24px;
+  color: #ff1b1b;
+}
+
+.product__info1 .product__favourite {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.favourite-icon {
+  margin-right: 6px;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.product__info1 .product__favourite span {
+  font-size: 12px;
+}
+
+.additional__section .additional__btns {
+  display: flex;
+}
+
+.additional__section .additional__btns .additional__btn {
+  display: inline-block;
+  padding: 12px 48px;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #e1e1e1;
+  background-color: #f5f5f5;
+  color: #7a7a7a;
+  font-weight: 600;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+.additional__section .additional__btns .additional__btn.active {
+  background-color: #ffca0f;
+  color: #000;
+  font-weight: bold;
+}
+
+.additional__section .location,
+.message,
+.information {
+  width: 100%;
+  height: 367px;
+  margin-bottom: 48px;
+  /* background-color: red; */
+}
+
+.additional__section .message,
+.location,
+.information {
+  display: none;
+}
+
+.additional__section .message.active,
+.location.active,
+.information.active {
+  display: block;
+}
+
+.additional__section .message textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  background-color: #f7f8fa;
+  border-radius: 4px;
+  border: none;
+  padding: 16px;
+  font-family: 'Poppins';
+}
+
+.releted__ads h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.product__description .contact {
+  width: 277px;
+  height: 140px;
+  background-color: #f6f7fb;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.product__description .contact .name {
+  font-size: 20px;
+  font-weight: 700;
+  /* margin-bottom: 6px; */
+  line-height: 23px;
+}
+
+.product__description .contact span {
+  display: inline-block;
+  font-size: 12px;
+  color: #7a7a7a;
+  margin-bottom: 24px;
+}
+
+.product__description .contact .calls {
+  display: flex;
+}
+
+.product__description .contact .call {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Poppins';
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 8px;
+  background-color: #ffca0f;
+  border: none;
+}
+
+.product__description .contact .message {
+  width: 197px;
+  height: 40px;
+  font-family: 'Poppins';
+  cursor: pointer;
+  background-color: #406bdb;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.product__info {
+  background-color: #f6f7fb;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+}
+
+.product__info .product__info-item {
+  width: 100%;
+  list-style-type: none;
+  height: 41px;
+  line-height: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e6ee;
+}
+
+.product__info .product__info-item span {
+  font-size: 14px;
+}
+
+.product__info .product__info-item span:nth-child(1) {
+  font-weight: 700;
+}
+
+.product__info .title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.product__info .description {
+  font-size: 13px;
+  margin-bottom: 48px;
+}
+
+.product__info .description:last-child {
+  margin-bottom: 0;
+}
+
+.product__info.last-child {
+  font-size: 13px;
+}
+
+.product__info.last-child .description {
+  padding-bottom: 120px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #e3e6ee;
+}
+
+.complain-btn {
+  padding: 6px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.complain-btn a {
+  color: #7a7a7a;
+  text-decoration: none;
+}
+
+.complaint-icon {
+  color: #ff1b1b;
+}
